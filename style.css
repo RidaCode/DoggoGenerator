@@ -4,27 +4,26 @@ html {
   background: linear-gradient(lightyellow, orange);
   height: 100vh;
 }
-
 header {
   margin-bottom: 30px;
   text-align: center;
 }
-
 select {
   font-size: 1.1rem;
 }
-
 .section-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  padding-left: 10vw;
+  padding-right: 10vw;
 }
-
+.column {
+  flex: 1;
+}
 img {
   max-width: 900px;
   max-height: 700px;
 }
-
 span {
   font-weight: bold;
   text-decoration: underline;
